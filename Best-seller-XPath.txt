@@ -1,0 +1,16 @@
+This is my XPath data extracting exercise for Chrome scrapper.
+
+The site :
+https://www.amazon.co.uk/Best-Sellers-Books-Childrens-Books-on-History/zgbs/books/15512178031/ref=zg_bs_nav_books_2_69
+
+The setting :
+XPath : //div[@id='gridItemRoot']
+
+Order 	: div/div[1]/div/span
+Title 	: div/div[2]/div/a/span
+Author	: div/div[2]/div/div[1]
+Stars 	: div/div[2]/div/div[2]/div/a/i
+Vote	: div/div[2]/div/div[2]/div/a/span
+Edition	: div/div[2]/div/div[3]/span | div/div[2]/div/div[2]/span
+Price	: div/div[2]/div/div[4] | div/div[2]/div/div[3]/a/span
+Url	: div/div[2]/div/a/@href
